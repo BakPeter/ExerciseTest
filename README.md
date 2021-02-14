@@ -5,7 +5,7 @@ Java
 MVVM
 SQLite - ROOM
 LiveData -
-    for view and viewModel, listeners for others components /n
+    for view and viewModel, listeners for others components
 Retrofit - connectivity
 Gson - json parsing
 ConnectivityManager -
