@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ExerciseTest</string>
+    <string name="no_connection_dialog_msg">The app needs an internet connection to run.\nPress \'SETTINGS\' to go to internet settings and connect.\nPress \'FINISH\' to exit the app.</string>
+    <string name="no_connection_dialog_positive_btn_txt">CONNECT</string>
+    <string name="no_connection_dialog_negative_btn_txt">FINISH</string>
+    <string name="no_connection_dialog_title">No internet connection</string>
+    <string name="tv_author_name">Written by Bakshaev Peter</string>
+    <string name="tv_welcome_msg">Welcome to app Exercise</string>
+    <string name="tv_data_loading_text">Loading data</string>
 </resources>

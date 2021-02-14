@@ -19,5 +19,7 @@ View -
     SnapHelper for recycler view implemented.
 
 Commits -
-    Commit 2 :
+    commit 2 :
         creating project, creating README.md file with work flow, initializing and updating git(local&remote) - 15 minutes.
+    commit 3 :
+        ConnectivityManagement implemented. = 25 minutes

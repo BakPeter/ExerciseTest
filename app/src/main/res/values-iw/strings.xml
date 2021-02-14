@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">תרגיל חזרה</string>
+    <string name="no_connection_dialog_msg">הרצת האפלקיציה דורשת חיבור אינטנרט פעיל. בחר "הגדרות" לעבור להגדרות האינטרנט או "סיים" לצאת מהאפליקציה.</string>
+    <string name="no_connection_dialog_positive_btn_txt">הגדרות</string>
+    <string name="no_connection_dialog_negative_btn_txt">סיים</string>
+    <string name="no_connection_dialog_title">אין חיבור לאינטנרט</string>
+    <string name="tv_author_name">נכתב ע\"י בקשייב פיטר</string>
+    <string name="tv_welcome_msg">אפליקציית תרגיל חזרה</string>
+    <string name="tv_data_loading_text">המידע נטען</string>
+</resources>
