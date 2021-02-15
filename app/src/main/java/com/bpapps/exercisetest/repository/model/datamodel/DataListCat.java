@@ -3,7 +3,9 @@ package com.bpapps.exercisetest.repository.model.datamodel;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class DataListCat {
+import java.io.Serializable;
+
+public class DataListCat implements Serializable {
     @SerializedName("CatId")
     @Expose
     private Integer catId;

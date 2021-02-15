@@ -7,4 +7,6 @@
     <string name="tv_author_name">Written by Bakshaev Peter</string>
     <string name="tv_welcome_msg">Welcome to app Exercise</string>
     <string name="tv_data_loading_text">Loading data</string>
+    <string name="notification_saving_data_title">Saving data</string>
+    <string name="notification_saving_data_content_text">Saving data to local machine</string>
 </resources>

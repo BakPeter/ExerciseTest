@@ -1,6 +1,7 @@
 package com.bpapps.exercisetest.repository;
 
 import com.bpapps.exercisetest.repository.localdatasource.assets.AssetDataHandler;
+import com.bpapps.exercisetest.repository.localdatasource.sql.LocalDataHandler;
 import com.bpapps.exercisetest.repository.model.datamodel.Result;
 import com.bpapps.exercisetest.repository.remotedatasource.PictureDownloadHandler;
 
@@ -23,6 +24,7 @@ public class Repository {
     private Repository() {
     }
 
+
     public void loadData() {
         new AssetDataHandler().loadData(new AssetDataHandler.IDataLoadListener() {
             @Override
@@ -36,6 +38,8 @@ public class Repository {
                                 if (mDownloadCallback != null) {
                                     mDownloadCallback.onLoadSuccess(data);
                                 }
+
+                                new LocalDataHandler().saveData(data);
                             }
 
                             @Override
